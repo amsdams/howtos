@@ -1,6 +1,6 @@
 # post-install-laptop-osx
 
-##  install
+##  installations
 
 ### xcode
 
@@ -35,7 +35,7 @@ brew install htop
 
 ```
 
-##configuration
+## configurations
 
 ### dock
 
