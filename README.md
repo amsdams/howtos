@@ -1,28 +1,61 @@
 # post-install-laptop-osx
 
 ## install xcode
+
 ```
 xcode-select --install
 ```
 
 ## install brew
+
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ##install packages
+
 ```
-brew install docker-machine docker-compose midnight-commander watch wget 
-brew install Caskroom/cask/java Caskroom/cask/eclipse-jee Caskroom/cask/macdown
 brew install Caskroom/cask/google-chrome Caskroom/cask/firefox
-brew install Caskroom/cask/jedit
+brew install dockutil
+brew install midnight-commander watch wget 
 ```
 
-#remove all items from dock
 ```
-git clone https://github.com/kcrawford/dockutil.git
+brew install docker-machine docker-compose ctop docker
+
+brew install Caskroom/cask/java Caskroom/cask/eclipse-jee Caskroom/cask/macdown jenv
+
+brew install Caskroom/cask/jedit
+brew install npm
+brew install heroku
+brew install htop
+
+
+```
+
+#configuration
+##remove all items from dock
+
+```
 dockutil --remove all
 ```
+
+
+##set java version
+
+```
+/usr/libexec/java_home -verbose
+echo 'eval "$(jenv init -)"' >> ~/.bash_profile
+jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/
+jenv add /Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
+jenv versions
+jenv global 1.8
+export JAVA_HOME=$(/usr/libexec/java_home -v $(jenv version-name))
+```
+
+
+
+
 
 
 
