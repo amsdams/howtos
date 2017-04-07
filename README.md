@@ -1,18 +1,20 @@
 # post-install-laptop-osx
 
-## install xcode
+##  install
+
+### xcode
 
 ```
 xcode-select --install
 ```
 
-## install brew
+### brew
 
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
-##install packages
+#### brew packages
 
 ```
 brew install Caskroom/cask/google-chrome Caskroom/cask/firefox
@@ -33,15 +35,16 @@ brew install htop
 
 ```
 
-#configuration
-##remove all items from dock
+##configuration
+
+### dock
 
 ```
 dockutil --remove all
 ```
 
 
-##set java version
+### java
 
 ```
 /usr/libexec/java_home -verbose
