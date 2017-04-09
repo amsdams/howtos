@@ -19,8 +19,11 @@ xcode-select --install
 ```
 brew install Caskroom/cask/google-chrome Caskroom/cask/firefox
 brew install dockutil
-brew install midnight-commander watch wget 
+brew install midnight-commander watch wget htop
+brew install Caskroom/cask/spectacle Caskroom/cask/spectacle-editor Caskroom/cask/xtrafinder
 ```
+
+##### development
 
 ```
 brew install docker-machine docker-compose ctop docker
@@ -30,10 +33,9 @@ brew install Caskroom/cask/java Caskroom/cask/eclipse-jee Caskroom/cask/macdown 
 brew install Caskroom/cask/jedit
 brew install npm
 brew install heroku
-brew install htop
-
 
 ```
+
 
 ## configurations
 
@@ -42,7 +44,6 @@ brew install htop
 ```
 dockutil --remove all
 ```
-
 
 ### java
 
@@ -56,6 +57,11 @@ jenv global 1.8
 export JAVA_HOME=$(/usr/libexec/java_home -v $(jenv version-name))
 ```
 
+### others
+
+````
+brew services list
+```
 
 
 
