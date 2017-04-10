@@ -21,6 +21,7 @@ brew install Caskroom/cask/google-chrome Caskroom/cask/firefox
 brew install dockutil
 brew install midnight-commander watch wget htop
 brew install Caskroom/cask/spectacle Caskroom/cask/spectacle-editor Caskroom/cask/xtrafinder
+brew install Caskroom/cask/skype
 ```
 
 ##### development
@@ -33,6 +34,8 @@ brew install Caskroom/cask/java Caskroom/cask/eclipse-jee Caskroom/cask/macdown 
 brew install Caskroom/cask/jedit
 brew install npm
 brew install heroku
+
+brew install Caskroom/cask/sourcetree
 
 ```
 
