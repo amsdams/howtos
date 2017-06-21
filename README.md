@@ -22,20 +22,23 @@ brew install dockutil
 brew install midnight-commander watch wget htop
 brew install Caskroom/cask/spectacle Caskroom/cask/spectacle-editor Caskroom/cask/xtrafinder
 brew install Caskroom/cask/skype
+brew install Caskroom/cask/macdown jenv
+
 ```
 
 ##### development
 
 ```
 brew install docker-machine docker-compose ctop docker
+brew install caskroom/cask/virtualbox
 
-brew install Caskroom/cask/java Caskroom/cask/eclipse-jee Caskroom/cask/macdown jenv
+brew install Caskroom/cask/java Caskroom/cask/eclipse-jee
 
 brew install Caskroom/cask/jedit
 brew install npm
 brew install heroku
 
-brew install Caskroom/cask/sourcetree
+brew install Caskroom/cask/sourcetree git
 
 ```
 
@@ -68,6 +71,9 @@ brew services list
 
 
 
+### docker
+
+docker-machine create -driver virtualbox default
 
 
 
