@@ -30,7 +30,10 @@ brew install Caskroom/cask/macdown jenv
 
 ```
 brew install docker-machine docker-compose ctop docker
+
+
 brew install caskroom/cask/virtualbox
+brew install Caskroom/cask/virtualbox-extension-pack
 
 brew install Caskroom/cask/java Caskroom/cask/eclipse-jee
 
@@ -74,6 +77,10 @@ brew services list
 ### docker
 
 docker-machine create -driver virtualbox default
+docker-machine start default
+docker-machine env
+
+
 
 
 
