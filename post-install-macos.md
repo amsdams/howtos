@@ -58,7 +58,9 @@ dockutil --remove all
 
 ```
 /usr/libexec/java_home -verbose
+echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bash_profile
 echo 'eval "$(jenv init -)"' >> ~/.bash_profile
+(open new terminal)
 jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/
 jenv add /Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
 jenv versions
