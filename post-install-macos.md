@@ -36,12 +36,16 @@ brew install caskroom/cask/virtualbox
 brew install Caskroom/cask/virtualbox-extension-pack
 
 brew install Caskroom/cask/java Caskroom/cask/eclipse-jee
+brew install caskroom/cask/sts
 
 brew install Caskroom/cask/jedit
 brew install npm
 brew install heroku
 
 brew install Caskroom/cask/sourcetree git
+
+
+
 
 ```
 
