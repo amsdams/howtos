@@ -37,7 +37,7 @@ brew install Caskroom/cask/virtualbox-extension-pack
 
 brew install Caskroom/cask/java Caskroom/cask/eclipse-jee
 brew install caskroom/cask/sts
-
+brew install caskroom/cask/soapui
 brew install Caskroom/cask/jedit
 brew install npm
 brew install heroku
