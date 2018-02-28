@@ -41,7 +41,7 @@ brew install caskroom/cask/soapui
 brew install Caskroom/cask/jedit
 brew install npm
 brew install heroku
-
+brew install mongodb
 brew install Caskroom/cask/sourcetree git
 
 
