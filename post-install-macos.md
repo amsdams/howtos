@@ -40,8 +40,12 @@ brew install caskroom/cask/sts
 brew install caskroom/cask/soapui
 brew install Caskroom/cask/jedit
 brew install npm
+brew install node
+brew install bower
 brew install heroku
 brew install mongodb
+brew install postgresql
+brew install yarn
 brew install Caskroom/cask/sourcetree git
 
 
@@ -76,6 +80,8 @@ export JAVA_HOME=$(/usr/libexec/java_home -v $(jenv version-name))
 
 ````
 brew services list
+
+brew services start mongodb
 ```
 
 
