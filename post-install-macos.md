@@ -20,36 +20,44 @@ xcode-select --install
 brew install Caskroom/cask/google-chrome Caskroom/cask/firefox
 brew install dockutil
 brew install midnight-commander watch wget htop
-brew install Caskroom/cask/spectacle Caskroom/cask/spectacle-editor Caskroom/cask/xtrafinder
+brew install Caskroom/cask/spectacle 
+brew install Caskroom/cask/spectacle-editor Caskroom/cask/xtrafinder
 brew install Caskroom/cask/skype
-brew install Caskroom/cask/macdown jenv
-
+brew install Caskroom/cask/macdown 
+brew install sketch
+brew install inkscape
+brew install firefox
+brew install gimp
+brew install google-chrome
+brew install etcher
 ```
 
 ##### development
 
 ```
-brew install docker-machine docker-compose ctop docker
-
-
-brew install caskroom/cask/virtualbox
-brew install Caskroom/cask/virtualbox-extension-pack
-
-brew install Caskroom/cask/java Caskroom/cask/eclipse-jee
-brew install caskroom/cask/sts
-brew install caskroom/cask/soapui
-brew install Caskroom/cask/jedit
-brew install npm
+brew install java 
+brew install eclipse-jee
+brew install sts
+brew install oapui
+brew install nvm
 brew install node
 brew install bower
-brew install heroku
+brew install yarn
 brew install mongodb
 brew install postgresql
-brew install yarn
-brew install Caskroom/cask/sourcetree git
-
-
-
+brew install sourcetree 
+brew install git
+brew install telegraf
+brew install kapacitor
+brew install influxdb
+brew install heroku
+brew install grafana
+brew install flyway
+brew install chronograf
+brew install maven
+brew install sonar-scanner
+brew install atom
+brew install jenv
 
 ```
 
@@ -62,31 +70,11 @@ brew install Caskroom/cask/sourcetree git
 dockutil --remove all
 ```
 
-### java
-
-```
-/usr/libexec/java_home -verbose
-echo 'export PATH="$HOME/.jenv/bin:$PATH"' >> ~/.bash_profile
-echo 'eval "$(jenv init -)"' >> ~/.bash_profile
-(open new terminal)
-jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_121.jdk/Contents/Home/
-jenv add /Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
-jenv versions
-jenv global 1.8
-export JAVA_HOME=$(/usr/libexec/java_home -v $(jenv version-name))
-```
-
-### others
-
-````
-brew services list
-
-brew services start mongodb
-```
-
-
-
 ### docker
+
+brew install caskroom/cask/virtualbox
+brew install caskroom/cask/virtualbox-extension-pack
+brew install docker-machine docker-compose ctop docker
 
 docker-machine create -driver virtualbox default
 docker-machine start default
