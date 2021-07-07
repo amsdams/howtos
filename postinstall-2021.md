@@ -20,6 +20,7 @@ dockutil --remove all
 # basic java dev
 `
 brew install java maven jenv
+brew install sourcetree git springtoolsuite
 `
 # basic javascript/typescript dev
 `
@@ -30,3 +31,17 @@ brew install node npm
 brew install docker docker-machine virtualbox
 `
 enable extenion in security settings and restart..
+`
+docker-machine create --driver virtualbox default 
+docker-machine env default
+eval "$(docker-machine env default)"
+docker run hello-world
+docker-machine stop default
+`
+
+# jhippy
+or use https://www.jhipster.tech/installation/ dev env in container
+`
+npm install -g generator-jhipster
+npm install -g yo
+`
