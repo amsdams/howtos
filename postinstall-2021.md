@@ -27,10 +27,13 @@ brew install sourcetree git springtoolsuite
 brew install node npm
 `
 # basic docker/virtual box
+
 `
 brew install docker docker-machine virtualbox
 `
+
 enable extenion in security settings and restart..
+
 `
 docker-machine create --driver virtualbox default 
 docker-machine env default
@@ -40,7 +43,9 @@ docker-machine stop default
 `
 
 # jhippy
+
 or use https://www.jhipster.tech/installation/ dev env in container
+
 `
 npm install -g generator-jhipster
 npm install -g yo
