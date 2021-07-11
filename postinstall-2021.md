@@ -41,6 +41,10 @@ eval "$(docker-machine env default)"
 docker run hello-world
 docker-machine stop default
 ```
+# window shortcuts
+```
+brew install --cask rectangle
+```
 
 # jhippy
 
