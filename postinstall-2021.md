@@ -94,8 +94,10 @@ minikube dashboard
 ```
 
 # plantuml
-```plantuml
+```plantuml:md-sample-class
 @startuml
 ASD --> dsa
 @enduml
 ```
+
+![](./md-sample-class.svg)
