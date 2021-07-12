@@ -96,3 +96,5 @@ minikube dashboard
 # plantuml
 
 ![asd](https://www.planttext.com/api/plantuml/img/SoWkIImgAStDuU9ooazIqBLJSCp9J4wrKl18pSd9L-JYSaZDIm5A0m00)
+![alternative text](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.github.com/plantuml/plantuml-server/master/src/main/webapp/resource/test2diagrams.txt)
+
