@@ -1,18 +1,14 @@
 @startuml
-
-title Activity Diagram \n
-
+title mac init
 start
-
 :start mac;
-
 :uninstall os;
 :erase volumes;
 :install os;
 :install apps;
-
+:install brew;
+:install desktop tools;
+:install java tools;
 :stop mac;
-
 stop
-
 @enduml
