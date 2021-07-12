@@ -76,7 +76,12 @@ cf dev start
 
 # kubernetes/minikube/kubectl
 https://minikube.sigs.k8s.io/docs/start/
+`
+JUST WORKS
+`
 ```
 brew install minikube kubectl 
+minikube start
+minikube dashboard
 
 ```
