@@ -55,3 +55,8 @@ or use https://www.jhipster.tech/installation/ dev env in container
 npm install -g generator-jhipster
 npm install -g yo
 ```
+ #openshift/minishift
+ ```
+ brew install minishift
+ minishift start --vm-driver=virtualbox
+ ```
