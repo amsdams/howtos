@@ -95,5 +95,5 @@ minikube dashboard
 
 # plantuml
 ```plantuml
-ASD->dsa
+ASD --> dsa
 ```
