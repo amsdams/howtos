@@ -32,7 +32,7 @@ brew install node npm
 brew install docker docker-machine virtualbox
 ```
 
-enable extenion in security settings and restart..
+enable extension in security settings and restart..
 
 ```
 docker-machine create --driver virtualbox default 
@@ -41,9 +41,11 @@ eval "$(docker-machine env default)"
 docker run hello-world
 docker-machine stop default
 ```
-# window shortcuts
+# window shortcuts, and others
 ```
 brew install --cask rectangle
+brew install slack
+brew install skype
 ```
 
 # jhippy
@@ -52,6 +54,5 @@ or use https://www.jhipster.tech/installation/ dev env in container
 
 ```
 npm install -g generator-jhipster
-
 npm install -g yo
 ```
