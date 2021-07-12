@@ -75,15 +75,16 @@ cf dev start
 ```
 
 # kubernetes/minikube/kubectl
-https://minikube.sigs.k8s.io/docs/start/
----
-asd
----
-Roses are \\textcolor{red}{red}, violets are \\textcolor{blue}{blue}.
 
+## docs
+
+https://minikube.sigs.k8s.io/docs/start/
+
+## note
 `
 JUST WORKS
 `
+
 ```
 brew install minikube kubectl 
 minikube start
