@@ -7,7 +7,7 @@ start
 :start mac;
 
 :uninstall os;
-:erase volumes ;
+:erase volumes;
 :install os;
 :install apps;
 
