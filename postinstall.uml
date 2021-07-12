@@ -1,6 +1,8 @@
 @startuml
 title mac init
+
 start
+
 :start mac;
 :uninstall os;
 :erase volumes;
@@ -10,5 +12,7 @@ start
 :install desktop tools;
 :install java tools;
 :stop mac;
+
 stop
+
 @enduml
