@@ -85,7 +85,7 @@ https://minikube.sigs.k8s.io/docs/start/
 `
 JUST WORKS
 `
-
+## commands
 ```
 brew install minikube kubectl 
 minikube start
