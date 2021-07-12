@@ -79,7 +79,7 @@ https://minikube.sigs.k8s.io/docs/start/
 ---
 asd
 ---
-Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
+Roses are \\textcolor{red}{red}, violets are \\textcolor{blue}{blue}.
 
 `
 JUST WORKS
