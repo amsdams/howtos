@@ -95,4 +95,23 @@ minikube dashboard
 
 # plantuml
 
-![Drag Racing](http://yuml.me/diagram/scruffy/class/%5BCustomer%5D-.svg)
+<plantuml>
+@startuml
+start
+:Hello world;
+:This is defined on
+several **lines**;
+stop
+@enduml
+</plantuml>
+
+You can also use the ``end`` keyword.
+<plantuml>
+@startuml
+start
+:Hello world;
+:This is defined on
+several **lines**;
+end
+@enduml
+</plantuml>
