@@ -1,0 +1,18 @@
+@startuml
+
+title Activity Diagram \n
+
+start
+
+:start mac;
+
+:uninstall os;
+:erase volumes ;
+:install os;
+:install apps;
+
+:stop mac;
+
+stop
+
+@enduml
