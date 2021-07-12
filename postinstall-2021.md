@@ -65,7 +65,7 @@ npm install -g yo
  ```
  # cloudfoundry/pcf/cf
   ```
- brew cf-cli
+brew install cf-cli
 cf install-plugin -r CF-Community cfdev
 cf dev start
 
