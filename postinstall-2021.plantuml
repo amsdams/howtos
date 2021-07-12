@@ -7,10 +7,16 @@ start
 :uninstall os;
 :erase volumes;
 :install os;
-:install apps;
 :install brew;
-:install desktop tools;
-:install java tools;
+
+  fork
+    :install desktop tools;
+  fork again
+    :install java tools;
+  end fork
+  
+
+
 :stop mac;
 
 stop
