@@ -45,6 +45,7 @@ docker-machine stop default
 brew install --cask rectangle
 brew install slack
 brew install skype
+brew install htop
 ```
 
 # jhippy
