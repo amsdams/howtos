@@ -19,7 +19,6 @@ dockutil --remove all
 # basic java dev
 ```
 brew install java maven jenv
-
 brew install sourcetree git springtoolsuite
 ```
 # basic javascript/typescript dev
