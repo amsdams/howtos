@@ -56,8 +56,15 @@ or use https://www.jhipster.tech/installation/ dev env in container
 npm install -g generator-jhipster
 npm install -g yo
 ```
- # openshift/minishift
+ # openshift/minishift/ocp
  ```
  brew install minishift
  minishift start --vm-driver=virtualbox
  ```
+ # cloudfoundry/pcf/cf
+  ```
+ brew cf-lii
+cf install-plugin -r CF-Community cfdev
+cf dev start
+
+```
