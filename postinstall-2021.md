@@ -95,5 +95,5 @@ minikube dashboard
 
 # plantuml
 
-![plantuml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/amsdams/howtos/master/postinstall.uml)
+![plantuml](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/amsdams/howtos/master/postinstall-2021.plantuml)
 
