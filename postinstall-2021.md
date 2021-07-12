@@ -76,8 +76,11 @@ cf dev start
 
 # kubernetes/minikube/kubectl
 https://minikube.sigs.k8s.io/docs/start/
+---
+asd
+---
+Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
-\textcolor{red}{red}
 `
 JUST WORKS
 `
