@@ -45,6 +45,7 @@ docker-machine stop default
 # window shortcuts, and others
 ```
 brew install --cask rectangle
+brew install amethyst
 brew install slack
 brew install skype
 brew install htop
