@@ -95,4 +95,4 @@ minikube dashboard
 
 # plantuml
 
-![Drag Racing][http://yuml.me/diagram/scruffy/class/%5BCustomer%5D-.svg]
+![Drag Racing](http://yuml.me/diagram/scruffy/class/%5BCustomer%5D-.svg)
