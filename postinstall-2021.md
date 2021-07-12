@@ -95,23 +95,4 @@ minikube dashboard
 
 # plantuml
 
-<plantuml>
-@startuml
-start
-:Hello world;
-:This is defined on
-several **lines**;
-stop
-@enduml
-</plantuml>
-
-You can also use the ``end`` keyword.
-<plantuml>
-@startuml
-start
-:Hello world;
-:This is defined on
-several **lines**;
-end
-@enduml
-</plantuml>
+(https://www.planttext.com/api/plantuml/img/SoWkIImgAStDuU9ooazIqBLJSCp9J4wrKl18pSd9L-JYSaZDIm5A0m00)
