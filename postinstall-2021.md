@@ -76,7 +76,7 @@ cf dev start
 
 # kubernetes/minikube/kubectl
 https://minikube.sigs.k8s.io/docs/start/
-`
+`green
 JUST WORKS
 `
 ```
