@@ -1,5 +1,7 @@
 # post install after wipe
 
+on macbook pro 4 core i7, 2,2 GHz,  16gb
+
 ## work in progress
 currently tools installed, but not used yet. tools maybe missing
 
