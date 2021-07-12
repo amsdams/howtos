@@ -95,5 +95,4 @@ minikube dashboard
 
 # plantuml
 
-![Example UML](https://yuml.me/diagram/scruffy/class/[Customer]->[Billing Address])
-
+![Drag Racing][http://yuml.me/diagram/scruffy/class/%5BCustomer%5D-.svg]
