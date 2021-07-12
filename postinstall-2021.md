@@ -64,9 +64,19 @@ npm install -g yo
  minishift start --vm-driver=virtualbox
  ```
  # cloudfoundry/pcf/cf
+ `
+ FAILED
+ `
   ```
 brew install cf-cli
 cf install-plugin -r CF-Community cfdev
 cf dev start
+
+```
+
+# kubernetes/minikube/kubectl
+https://minikube.sigs.k8s.io/docs/start/
+```
+brew install minikube kubectl 
 
 ```
