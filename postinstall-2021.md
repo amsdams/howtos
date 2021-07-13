@@ -61,6 +61,7 @@ npm install -g yo
 ```
  # openshift/minishift/ocp/oc
  ```
+ brew install openshift-cli
  brew install minishift
  minishift start --vm-driver=virtualbox
  ```
