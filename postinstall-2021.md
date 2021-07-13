@@ -23,6 +23,10 @@ dockutil --remove all
 brew install java maven jenv
 brew install sourcetree git springtoolsuite
 ```
+
+## lombok
+https://projectlombok.org/setup/eclipse
+
 # basic javascript/typescript dev
 ```
 brew install node npm
