@@ -7,8 +7,10 @@ Serial number: 053053001911
 Purchased: Not set
 
 Change | remove
-[https://www.usa.canon.com/internet/portal/us/home/support/details/cameras/support-dslr/eos-rebel-t4i?subtab=downloads-firmware]
-[https://www.canon-europe.com/support/consumer_products/products/cameras/digital_slr/eos_650d.html?type=firmware]
+
+Firmware: 
+- https://www.usa.canon.com/internet/portal/us/home/support/details/cameras/support-dslr/eos-rebel-t4i?subtab=downloads-firmware
+- https://www.canon-europe.com/support/consumer_products/products/cameras/digital_slr/eos_650d.html?type=firmware
 
 Firmware: 1.0.5
 
@@ -20,7 +22,8 @@ Purchased: Not set
 
 Change | remove
 
-[https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/fixed_focal_length/ef_50mm_f14_usm.html?type=firmware]
+Firmware:
+- https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/fixed_focal_length/ef_50mm_f14_usm.html?type=firmware
 
 EF100mm F2.8 Macro USM
 =
@@ -30,7 +33,8 @@ Purchased: Not set
 
 Change | remove
 
-[https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/macro/ef_100mm_f28_macro_usm.html?type=firmware]
+Firmware: 
+- https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/macro/ef_100mm_f28_macro_usm.html?type=firmware
 
 EF35mm F2 IS USM
 =
@@ -40,7 +44,8 @@ Purchased: Not set
 
 Change | remove
 
-[https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/fixed_focal_length/ef35mm_f2_is_usm.html?type=firmware]
+Firmware: 
+- https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/fixed_focal_length/ef35mm_f2_is_usm.html?type=firmware
 
 Firmware: 
 
@@ -52,7 +57,8 @@ Purchased: Not set
 
 Change | remove
 
-[https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/is/ef-s-18-135mm-f35-56-is-usm.html?type=firmware]
+Firmware: 
+- https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/is/ef-s-18-135mm-f35-56-is-usm.html?type=firmware
 
 Firmware: 1.5.0
 
@@ -64,5 +70,5 @@ Purchased: Not set
 
 Change | remove
 
-
-[test](https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/is/ef-s_10-18mm_f45-56_is_stm.html?type=firmware)
+Firmware: 
+- https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/is/ef-s_10-18mm_f45-56_is_stm.html?type=firmware
