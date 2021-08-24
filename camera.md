@@ -12,7 +12,7 @@ Firmware:
 - https://www.usa.canon.com/internet/portal/us/home/support/details/cameras/support-dslr/eos-rebel-t4i?subtab=downloads-firmware
 - https://www.canon-europe.com/support/consumer_products/products/cameras/digital_slr/eos_650d.html?type=firmware
 
-Firmware: 1.0.5
+Firmware version: 1.0.5
 
 EF50mm F1.4 USM
 =
@@ -47,7 +47,7 @@ Change | remove
 Firmware: 
 - https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/fixed_focal_length/ef35mm_f2_is_usm.html?type=firmware
 
-Firmware: 
+Firmware version: 1.0.0 
 
 EF-S18-135mm F3.5-5.6 IS STM
 =
