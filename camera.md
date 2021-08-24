@@ -65,4 +65,4 @@ Purchased: Not set
 Change | remove
 
 
-[test] (https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/is/ef-s_10-18mm_f45-56_is_stm.html?type=firmware)
+[test](https://www.canon-europe.com/support/consumer_products/products/cameras/ef_lenses/is/ef-s_10-18mm_f45-56_is_stm.html?type=firmware)
