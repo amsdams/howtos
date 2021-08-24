@@ -1,6 +1,7 @@
 You have registered these Canon products to your account.
 
-h2. EOS Rebel T4i
+EOS Rebel T4i
+=====
 Serial number: 053053001911
 
 Purchased: Not set
