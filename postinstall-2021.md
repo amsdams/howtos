@@ -1,6 +1,8 @@
 # post install after wipe
 
-on macbook pro 4 core i7, 2,2 GHz,  16gb
+on macbook pro 
+- 4 core i7, 2,2 GHz, 16gb
+- 8-Core i9, 2,3 GHz, 16 GB
 
 ## work in progress
 currently tools installed, but not used yet. tools maybe missing
@@ -93,7 +95,6 @@ docker-machine stop default
 # window shortcuts, and others
 ```
 brew install rectangle
-brew install amethyst
 brew install slack
 brew install skype
 brew install htop
@@ -102,7 +103,7 @@ brew install --cask beyond-compare
 
 ```
 
-when starting rectangle, select spectacle config
+when starting rectangle, select 'spectacle' config
 
 # jhippy
 
