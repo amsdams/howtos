@@ -5,23 +5,53 @@ on macbook pro 4 core i7, 2,2 GHz,  16gb
 ## work in progress
 currently tools installed, but not used yet. tools maybe missing
 
-# osx dev tools
-```
-xcode-select --install
-```
+
 # brew package man
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
+
+# osx dev tools (brew now installs xcode, prolly not needed)
+```
+xcode-select --install
+```
+
+# chrome
+```
+brew install google-chrome
+```
+
 # clean up dock
 ```
 brew install dockutil
 dockutil --remove all
 ```
-# basic java dev
+# basic java dev 
+
+currently will install java 16.
+
+
 ```
 brew install java maven jenv
 brew install sourcetree git springtoolsuite
+brew install git-gui
+```
+
+## 11 lts
+```
+brew install brew install openjdk@11
+```
+
+## 8 lts
+```
+brew install brew install openjdk@8
+```
+
+## configure jenv
+
+```
+jenv add /usr/local/opt/openjdk@11/  
+jenv add /usr/local/opt/openjdk@8/ 
 ```
 
 ## lombok
@@ -30,6 +60,7 @@ https://projectlombok.org/setup/eclipse
 # basic javascript/typescript dev
 ```
 brew install node npm
+brew install nvm
 ```
 # basic docker/virtual box
 
@@ -48,12 +79,14 @@ docker-machine stop default
 ```
 # window shortcuts, and others
 ```
-brew install --cask rectangle
+brew install rectangle
 brew install amethyst
 brew install slack
 brew install skype
 brew install htop
 ```
+
+when starting rectangle, select spectacle config
 
 # jhippy
 
