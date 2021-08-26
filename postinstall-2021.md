@@ -58,9 +58,16 @@ jenv add /usr/local/opt/openjdk@8/
 https://projectlombok.org/setup/eclipse
 
 after having lombok in your local maveb repoistory:
+stop sts
 ```
 java -jar ~/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar
 ```
+for some reason
+```
+codesign --force --deep --sign - /Applications/SpringToolSuite4.app
+```
+start sts
+
 and select .ini of springtoolsuite  (/Applications/SpringToolSuite4.app/Contents/Eclipse/SpringToolSuite4.ini )
 
 # basic javascript/typescript dev
