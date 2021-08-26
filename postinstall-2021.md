@@ -97,6 +97,7 @@ brew install amethyst
 brew install slack
 brew install skype
 brew install htop
+brew install --cask foxitreader
 ```
 
 when starting rectangle, select spectacle config
