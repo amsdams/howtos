@@ -57,6 +57,12 @@ jenv add /usr/local/opt/openjdk@8/
 ## lombok
 https://projectlombok.org/setup/eclipse
 
+after having lombok in your local maveb repoistory:
+```
+java -jar ~/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar
+```
+and select .ini of springtoolsuite  (/Applications/SpringToolSuite4.app/Contents/Eclipse/SpringToolSuite4.ini )
+
 # basic javascript/typescript dev
 ```
 brew install node npm
