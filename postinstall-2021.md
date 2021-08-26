@@ -98,6 +98,8 @@ brew install slack
 brew install skype
 brew install htop
 brew install --cask foxitreader
+brew install --cask beyond-compare
+
 ```
 
 when starting rectangle, select spectacle config
