@@ -7,6 +7,9 @@ on macbook pro
 ## work in progress
 currently tools installed, but not used yet. tools maybe missing
 
+## security
+
+enable filefault (needs appleid)..
 
 # brew package man
 ```
