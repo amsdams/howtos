@@ -86,3 +86,17 @@ brew install screen
 change user?
 change ssh port?
 ...secrets
+
+# diskspace
+
+```bash
+pi@raspberrypi:~ $ df -h
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/root       7.1G  2.0G  4.8G  29% /
+devtmpfs        333M     0  333M   0% /dev
+tmpfs           462M     0  462M   0% /dev/shm
+tmpfs           185M  1.7M  183M   1% /run
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+/dev/mmcblk0p1  253M   50M  203M  20% /boot
+tmpfs            93M  8.0K   93M   1% /run/user/1000
+```
