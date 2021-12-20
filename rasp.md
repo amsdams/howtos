@@ -35,6 +35,34 @@ touch ssh on ssd
 
 and change user password
 
+## clean up
+### remove x stuff
+
+```bash
+udo apt-get remove --auto-remove --purge 'libx11-.*'
+sudo apt-get autoremove --purge
+```
+
+### update/upgrade stuff
+
+```bash
+sudo apt update 
+sudo apt upgrade
+sudo reboot
+```
+
+wait
+
+```bash
+ssh pi@raspberrypi.home -p 22
+```
+## install stuff
+
+```bash
+brew install screen
+brew install vim
+```
+
 ## easy file shares
 
 ### install fileshare service (samba for kodi etc)
@@ -114,34 +142,6 @@ verify
 
 ```bash
 ls  /media/usb
-```
-
-### remove x stuff
-
-```bash
-udo apt-get remove --auto-remove --purge 'libx11-.*'
-sudo apt-get autoremove --purge
-```
-
-### update/upgrade stuff
-
-```bash
-sudo apt update 
-sudo apt upgrade
-sudo reboot
-```
-
-wait
-
-```bash
-ssh pi@raspberrypi.home -p 22
-```
-
-### install stuff
-
-```bash
-brew install screen
-brew install vim
 ```
 
 ### todo?
