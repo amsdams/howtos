@@ -54,6 +54,43 @@ create mask=0777
 directory mask=0777
 public=no
 ```
+### (auto)mount hds
+
+get UUID disk
+
+```bash
+ls -l /dev/disk/by-uuid/
+```
+and remember $UUID for fstab
+
+```bash
+sudo nano /etc/fstab 
+```
+
+and paste
+
+```bash
+UUID=$UUID /media/usb vfat auto,nofail,noatime,users,rw,uid=pi,gid=pi 0 0
+
+```
+
+```
+sudo mkdir /media/usb
+sudo chown -R pi:pi /media/usb
+sudo mount /dev/sda1 /media/usb
+sudo reboot
+```
+wait
+
+```bash
+ssh pi@raspberrypi.home -p 22
+```
+verify
+
+```bash
+ls  /media/usb
+```
+
 ### remove x stuff
 
 ```bash
@@ -100,3 +137,4 @@ tmpfs           5.0M  4.0K  5.0M   1% /run/lock
 /dev/mmcblk0p1  253M   50M  203M  20% /boot
 tmpfs            93M  8.0K   93M   1% /run/user/1000
 ```
+
