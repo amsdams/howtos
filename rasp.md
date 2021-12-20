@@ -23,7 +23,7 @@ and use the gui
 open /Applications/Raspberry\ Pi\ Imager.app
 ```
 
-## enable ssh, because I want to remote login. 
+## enable ssh, because I want to remote login. headless
 
 touch ssh on ssd
 
