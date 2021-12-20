@@ -35,11 +35,18 @@ touch ssh on ssd
 
 and change user password
 
-## samba
+## easy file shares
 
-### install fileshare service (smb:// for kodi etc)
+### install fileshare service (samba for kodi etc)
 ```bash
 sudo apt-get install samba samba-common-bin
+```
+and change password
+
+```bash
+sudo smbpasswd -a pi
+sudo systemctl restart smbd
+
 ```
 
 ### edit smb.conf
@@ -57,7 +64,10 @@ create mask=0777
 directory mask=0777
 public=no
 ```
-### (auto)mount hds
+
+
+
+## (auto)mount hds
 
 get UUID disk
 
@@ -136,9 +146,13 @@ brew install vim
 
 ### todo?
 
-change user?
-change ssh port?
-...secrets
+- change user?
+- change ssh port?
+- do something with python
+- minishift?
+-...secrets
+
+
 
 # diskspace
 
