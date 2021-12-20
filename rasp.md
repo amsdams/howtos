@@ -27,10 +27,12 @@ open /Applications/Raspberry\ Pi\ Imager.app
 
 touch ssh on ssd
 
+## boot, and check router to find connected device (hostname, ip)
+
 ### network, just connect to router type of device (with dhcp enabled)
 
 ```bash
- ssh pi@192.168.2.16 -p 22
+ ssh pi@192.168.x.xx -p 22
 ```
 
 and change user password
@@ -54,7 +56,7 @@ sudo reboot
 wait
 
 ```bash
-ssh pi@raspberrypi.home -p 22
+ssh pi@xxxx.home -p 22
 ```
 ## install stuff
 
@@ -136,7 +138,7 @@ sudo reboot
 wait
 
 ```bash
-ssh pi@raspberrypi.home -p 22
+ssh pi@xxxx.home -p 22
 ```
 verify
 
