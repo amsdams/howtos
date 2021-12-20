@@ -128,6 +128,7 @@ ssh pi@raspberrypi.home -p 22
 
 ```bash
 brew install screen
+brew install vim
 ```
 
 ### todo?
