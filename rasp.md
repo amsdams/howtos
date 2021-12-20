@@ -37,7 +37,10 @@ and change user password
 
 ## samba
 
-### connect usb hds
+### install fileshare service (smb:// for kodi etc)
+```bash
+sudo apt-get install samba samba-common-bin
+```
 
 ### edit smb.conf
 
