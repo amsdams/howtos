@@ -63,14 +63,20 @@ ls -l /dev/disk/by-uuid/
 ```
 and remember $UUID for fstab
 
+get fstype (xfat/exfat, etc)
+
+```
+sudo fdisk –l
+```
+
 ```bash
 sudo nano /etc/fstab 
 ```
 
-and paste
+and paste (exfat is fstype)
 
 ```bash
-UUID=$UUID /media/usb vfat auto,nofail,noatime,users,rw,uid=pi,gid=pi 0 0
+UUID=$UUID /media/usb exfat auto,nofail,noatime,users,rw,uid=pi,gid=pi 0 0
 
 ```
 
@@ -78,6 +84,12 @@ UUID=$UUID /media/usb vfat auto,nofail,noatime,users,rw,uid=pi,gid=pi 0 0
 sudo mkdir /media/usb
 sudo chown -R pi:pi /media/usb
 sudo mount /dev/sda1 /media/usb
+sudo umount /dev/sda1 
+```
+test before reboot
+
+```bash
+sudo mount -a
 sudo reboot
 ```
 wait
