@@ -40,6 +40,10 @@ currently will install java 16.
 brew install java maven jenv
 brew install sourcetree git springtoolsuite
 brew install git-gui
+
+brew tap spring-io/tap
+brew install spring-boot
+
 ```
 
 ## 11 lts
