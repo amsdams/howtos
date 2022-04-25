@@ -33,7 +33,7 @@ dockutil --remove all
 ```
 # basic java dev 
 
-currently will install java 16.
+currently will install java 18.
 
 
 ```
@@ -46,15 +46,14 @@ brew install spring-boot
 
 ```
 
-## 11 lts
+## install older java versions
 ```
 brew install brew install openjdk@11
+brew install brew install openjdk@17
+brew install brew install openjdk@18
 ```
 
-## 8 lts
-```
-brew install brew install openjdk@8
-```
+
 
 ## configure jenv
 
@@ -69,7 +68,7 @@ https://projectlombok.org/setup/eclipse
 after having lombok in your local maveb repoistory:
 stop sts
 ```
-java -jar ~/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.20.jar
+java -jar ~/.m2/repository/org/projectlombok/lombok/1.18.20/lombok-1.18.24.jar
 ```
 and select .ini of springtoolsuite  (/Applications/SpringToolSuite4.app/Contents/Eclipse/SpringToolSuite4.ini )
 
@@ -81,6 +80,11 @@ codesign --force --deep --sign - /Applications/SpringToolSuite4.app
 
 start sts
 
+*plugins*: 
+* install sonarlint
+* install plantuml
+* install checkstyle
+* install .. web tools, mapstruct, asciidoc, etc
 
 # basic javascript/typescript dev
 ```
