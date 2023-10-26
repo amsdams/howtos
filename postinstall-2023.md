@@ -1,7 +1,7 @@
 # basics
 brew install google-chrome nvm openjdk jenv git maven
 
-update ./.zshrc
+update ~/.zshrc
 
 open google chrome and sync 
 
