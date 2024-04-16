@@ -23,4 +23,5 @@ brew install intune-company-portal && open /Applications/Company\ Portal.app/
 ## other
 
 install f5 access
+
 install splashy (irvue/unsplash alternative)
