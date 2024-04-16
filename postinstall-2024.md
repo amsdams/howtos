@@ -25,3 +25,19 @@ brew install intune-company-portal && open /Applications/Company\ Portal.app/
 install f5 access
 
 install splashy (irvue/unsplash alternative)
+
+## fe dev
+
+```sh
+nvm install --lts
+npm install --global yarn
+```
+
+## be dev
+
+open idea
+start new project and install jdk/sdk
+
+```sh
+jenv add ~/Library/Java/JavaVirtualMachines/openjdk-22/Contents/Home
+```
