@@ -21,7 +21,7 @@ brew install intellij-idea intellij-idea-ce webstorm visual-studio-code vim
 #brew install intune-company-portal && open /Applications/Company\ Portal.app/
 
 brew install htop watch wget jq midnight-commander
-brew install ccleaner beyond-compare  whatsapp
+brew install ccleaner beyond-compare  whatsapp microsoft-teams
 ```
 
 ## other
@@ -30,6 +30,11 @@ brew install ccleaner beyond-compare  whatsapp
 
 ##install splashy (irvue/unsplash alternative)
 
+locate db
+```sh
+  sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+
+```
 ## fe dev
 
 ```sh
