@@ -1,0 +1,14 @@
+==> Formulae
+ast-cli			freetype		icu4c			libssh2			libyaml			nvm			python@3.13		xz
+azure-cli		gettext			icu4c@75		libtiff			little-cms2		oniguruma		readline		zstd
+ca-certificates		giflib			jenv			libunistring		lua			openjdk			ruby
+cairo			git			jpeg-turbo		libx11			lz4			openssl@3		s-lang
+cf-cli@8		glib			jq			libxau			lzo			pcre2			sqlite
+diffutils		gradle			kics			libxcb			maven			pixman			vim
+dockutil		graphite2		libidn2			libxdmcp		midnight-commander	python-packaging	watch
+figlet			harfbuzz		libpng			libxext			mpdecimal		python@3.11		wget
+fontconfig		htop			libsodium		libxrender		ncurses			python@3.12		xorgproto
+
+==> Casks
+android-studio		ccleaner		google-chrome		intune-company-portal	microsoft-auto-update	rectangle		webstorm
+beyond-compare		docker			intellij-idea		iterm2			microsoft-teams		visual-studio-code	whatsapp
