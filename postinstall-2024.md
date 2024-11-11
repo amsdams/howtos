@@ -35,6 +35,10 @@ locate db
   sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
 
 ```
+```sh
+brew install docker --cask
+softwareupdate --install-rosetta
+```
 ## fe dev
 
 ```sh
